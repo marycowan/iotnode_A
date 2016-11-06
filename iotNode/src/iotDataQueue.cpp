@@ -20,12 +20,13 @@ void iotDataQueue::init()//define functions in class iotDataQueue
 //initialise the queue
 void iotDataQueue::qput(int i)
 {
-    if(sloc==100){
+    if(sloc==10){
         cout << "queue is full. \n";
         return;
     }
-    sloc++;
+   // sloc++;
     q[sloc] = i;
+    sloc++;
 }
 
 //get an integer from the queue
@@ -35,6 +36,7 @@ int iotDataQueue::qget()
         cout << "queue underflow. \n";
         return 0;
     }
-    rloc++;
+   // rloc++;
     return q[rloc];
+    rloc++;
 }
