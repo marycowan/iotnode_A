@@ -1,5 +1,6 @@
 #include "iotDataQueue.h"
 #include <iostream>
+#include "sensor.h"
 using namespace std;
 
 iotDataQueue::iotDataQueue()
@@ -7,11 +8,11 @@ iotDataQueue::iotDataQueue()
     //ctor
 }
 
-iotDataQueue::~iotDataQueue()
+iotDataQueue::~iotDataQueue()//abstract class iotDataQueue
 {
     //dtor
 }
-void iotDataQueue::init()
+void iotDataQueue::init()//define functions in class iotDataQueue
 {
     rloc = sloc = 0;
 }
