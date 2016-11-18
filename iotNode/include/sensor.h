@@ -4,14 +4,14 @@
 
 class sensor
 {
-    public:
-        sensor();
-        virtual ~sensor();
+public:
+    sensor();
+    virtual ~sensor();
     int getrdg();   //declare function getrdg which returns and integer
-    protected:      // the integer will be put into Q by qput in iotDataQ
+protected:      // the integer will be put into Q by qput in iotDataQ
 
-    private:
-        int rdg;// declare int variable reading
+private:
+    int rdg;// declare int variable reading
 };
 
 #endif // SENSOR_H
