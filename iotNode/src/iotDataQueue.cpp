@@ -26,8 +26,9 @@ void iotDataQueue::qput(int i)// qput puts the data into the queue until it's fu
         cout << "queue is full. \n";
         return;
     }
-    q[sloc] = i;// I swapped these lines, were they in the right place?
     sloc++;
+    q[sloc] = i;
+
 }
 
 //get an integer from the queue
@@ -38,6 +39,7 @@ int iotDataQueue::qget()// qget gets the data from the queue
         cout << "queue underflow. \n";// I don't understand this line really does it mean
         return 0;                      // less than 10 readings in queue, doesn't seem to...
     }
-    return q[rloc];
     rloc++;
+    return q[rloc];
+
 }

@@ -1,14 +1,14 @@
 #include <iostream>
 #include "iotDataQueue.h"
 #include "sensor.h"
-#include "controller.h"//didn't use in the end
+#include "controller.h"
 using namespace std;
 
 int main()
 {
-    controller mycontroller;//create instance of controller
+    controller mycontroller;//create instance of Machine
 
-    mycontroller.showRdg();// run function showRdg with data from object mycontoller
+    mycontroller.showRdg();// run function showRdg with data from object fsm
     cout << "at last!"<< endl;
 
 

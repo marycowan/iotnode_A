@@ -2,7 +2,7 @@
 #define CONTROLLER_H
 
 
-class controller // I DIDN'T USE THIS IN THE END
+class controller
 {
     public:
         controller();

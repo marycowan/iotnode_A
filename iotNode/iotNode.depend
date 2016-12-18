@@ -5,7 +5,7 @@
 
 1475008991 c:\users\staff\desktop\portablegit-2.10.0-32-bit.7z\iotnode_a\iotnode\include\iotdataqueue.h
 
-1478448216 source:e:\portablegit-2.10.0-32-bit.7z\iotnode_a\iotnode\main.cpp
+1480536918 source:e:\portablegit-2.10.0-32-bit.7z\iotnode_a\iotnode\main.cpp
 	<iostream>
 	"iotDataQueue.h"
 	"sensor.h"
@@ -24,7 +24,7 @@
 	"iotDataQueue.h"
 	"sensor.h"
 
-1478983816 e:\portablegit-2.10.0-32-bit.7z\iotnode_a\iotnode\include\controller.h
+1480540608 e:\portablegit-2.10.0-32-bit.7z\iotnode_a\iotnode\include\controller.h
 
 1479506950 source:e:\portablegit-2.10.0-32-bit.7z\iotnode_a\iotnode\src\iotdataqueue.cpp
 	"iotDataQueue.h"
@@ -49,5 +49,57 @@
 	"sensor.h"
 
 1478793306 source:j:\portablegit-2.10.0-32-bit.7z\iotnode_a\iotnode\src\sensor.cpp
+	"sensor.h"
+
+1480536918 source:f:\portablegit-2.10.0-32-bit.7z\iotnode_a\iotnode\main.cpp
+	<iostream>
+	"iotDataQueue.h"
+	"sensor.h"
+	"controller.h"
+
+1478448370 f:\portablegit-2.10.0-32-bit.7z\iotnode_a\iotnode\include\iotdataqueue.h
+
+1479506950 f:\portablegit-2.10.0-32-bit.7z\iotnode_a\iotnode\include\sensor.h
+
+1480540608 f:\portablegit-2.10.0-32-bit.7z\iotnode_a\iotnode\include\controller.h
+
+1479506950 source:f:\portablegit-2.10.0-32-bit.7z\iotnode_a\iotnode\src\controller.cpp
+	"controller.h"
+	<iostream>
+	"iotDataQueue.h"
+	"sensor.h"
+
+1479506950 source:f:\portablegit-2.10.0-32-bit.7z\iotnode_a\iotnode\src\sensor.cpp
+	"sensor.h"
+
+1481654092 source:f:\portablegit-2.10.0-32-bit.7z\iotnode_a\iotnode\src\iotdataqueue.cpp
+	"iotDataQueue.h"
+	<iostream>
+	"sensor.h"
+
+1480536918 source:c:\users\marye\desktop\portablegit-2.10.0-32-bit.7z\iotnode_a\iotnode\main.cpp
+	<iostream>
+	"iotDataQueue.h"
+	"sensor.h"
+	"controller.h"
+
+1478448370 c:\users\marye\desktop\portablegit-2.10.0-32-bit.7z\iotnode_a\iotnode\include\iotdataqueue.h
+
+1479506950 c:\users\marye\desktop\portablegit-2.10.0-32-bit.7z\iotnode_a\iotnode\include\sensor.h
+
+1480540608 c:\users\marye\desktop\portablegit-2.10.0-32-bit.7z\iotnode_a\iotnode\include\controller.h
+
+1479506950 source:c:\users\marye\desktop\portablegit-2.10.0-32-bit.7z\iotnode_a\iotnode\src\controller.cpp
+	"controller.h"
+	<iostream>
+	"iotDataQueue.h"
+	"sensor.h"
+
+1481654092 source:c:\users\marye\desktop\portablegit-2.10.0-32-bit.7z\iotnode_a\iotnode\src\iotdataqueue.cpp
+	"iotDataQueue.h"
+	<iostream>
+	"sensor.h"
+
+1479506950 source:c:\users\marye\desktop\portablegit-2.10.0-32-bit.7z\iotnode_a\iotnode\src\sensor.cpp
 	"sensor.h"
 
